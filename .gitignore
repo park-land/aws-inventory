@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AWS credentials / secrets — never commit these
+.env
+.env.*
+*.pem
+*.key
+credentials
+aws_credentials.json
+
+# Persisted scan data
+data/
+
+# Exported files
+*.xlsx
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI
+.claude/
